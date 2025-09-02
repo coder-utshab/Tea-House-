@@ -165,7 +165,8 @@
 
 
   <!-- super client section -->
-   <section class="my-24 flex flex-col lg:flex-row gap-12 rounded-xl bg-gradient-to-r from-[#FF8938]
+   <section class="my-24 flex flex-col lg:flex-row gap-12 rounded-xl
+   bg-gradient-to-r from-[#Ff8938]
     to-[#F00] px-16 py-24">
     <div class="flex lg:pr-28 items-center">
       <diV class="space-y-5">
@@ -287,7 +288,18 @@
    </main>
 
 
-<footer class=" p-10 bg-base-200 text-base-content">
+<footer class=" p-48 py-10 bg-base-200 text-base-content">
+  <div class="flex justify-between my-24">
+    <img src="./cup.png" alt="">
+    <p>
+      <span>Ready to get started?</span>
+      <!-- <button class="btn btn-primary">Get Started</button> -->
+       <button class="btn bg-orange-500 hover:bg-orange-600 text-white border-0">
+  Get Started
+</button>
+
+    </p>
+  </div>
   <div class="footer">
     <div>
     <span class="footer-title">Services</span> 
@@ -316,13 +328,24 @@
         <span class="label-text">Enter your email address</span>
       </label> 
       <div class="relative">
-        <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
-        <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+        <input type="text" placeholder="username@site.com" 
+        class=" py-4 bg-transparent border-b-2 border-black outline-none" /> 
+        <!-- <button class="btn text-white absolute top-0 right-0 rounded-full
+         bg-gradient-to-r from-gradient-start
+         to-geadient-end">
+          <i class="fa-solid fa-angle-right "></i>
+        </button> -->
+
+        <button class="btn text-white absolute top-0 right-0 rounded-full 
+        bg-orange-500 hover:bg-orange-600 transition">
+  <i class="fa-solid fa-angle-right"></i>
+</button>
+
       </div>
     </div>
   </div>
   </div>
-  <div class="mt-4 text-center">
+  <div class="mt-10 text-center">
     <p>Copyright © 2025 - All right reserved by ACME Industries Ltd</p>
   </div>
 </footer>
